@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
+    "iniciarUbuntu": "export ANDROID_SDK_ROOT=/home/anderson/Android/Sdk && export JAVA_HOME=/usr/lib/jvm/jdk-18 && npx react-native run-android && npx react-native start",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
